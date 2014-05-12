@@ -21,6 +21,7 @@
 		7FC202B61921829B00DCD9E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC202981921829B00DCD9E2 /* UIKit.framework */; };
 		7FC202BE1921829B00DCD9E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FC202BC1921829B00DCD9E2 /* InfoPlist.strings */; };
 		7FC202C01921829B00DCD9E2 /* my_first_gitupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC202BF1921829B00DCD9E2 /* my_first_gitupTests.m */; };
+		7FC202CB192182FB00DCD9E2 /* sample class.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC202CA192182FB00DCD9E2 /* sample class.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		7FC202BB1921829B00DCD9E2 /* my first gitupTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "my first gitupTests-Info.plist"; sourceTree = "<group>"; };
 		7FC202BD1921829B00DCD9E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7FC202BF1921829B00DCD9E2 /* my_first_gitupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = my_first_gitupTests.m; sourceTree = "<group>"; };
+		7FC202C9192182FB00DCD9E2 /* sample class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "sample class.h"; sourceTree = "<group>"; };
+		7FC202CA192182FB00DCD9E2 /* sample class.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "sample class.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		7FC202881921829B00DCD9E2 = {
 			isa = PBXGroup;
 			children = (
+				7FC202C9192182FB00DCD9E2 /* sample class.h */,
+				7FC202CA192182FB00DCD9E2 /* sample class.m */,
 				7FC2029A1921829B00DCD9E2 /* my first gitup */,
 				7FC202B91921829B00DCD9E2 /* my first gitupTests */,
 				7FC202931921829B00DCD9E2 /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FC202AB1921829B00DCD9E2 /* SaiViewController.m in Sources */,
+				7FC202CB192182FB00DCD9E2 /* sample class.m in Sources */,
 				7FC202A51921829B00DCD9E2 /* SaiAppDelegate.m in Sources */,
 				7FC202A11921829B00DCD9E2 /* main.m in Sources */,
 			);
