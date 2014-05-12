@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7FC202951921829B00DCD9E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC202941921829B00DCD9E2 /* Foundation.framework */; };
+		7FC202971921829B00DCD9E2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC202961921829B00DCD9E2 /* CoreGraphics.framework */; };
+		7FC202991921829B00DCD9E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC202981921829B00DCD9E2 /* UIKit.framework */; };
+		7FC2029F1921829B00DCD9E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FC2029D1921829B00DCD9E2 /* InfoPlist.strings */; };
+		7FC202A11921829B00DCD9E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC202A01921829B00DCD9E2 /* main.m */; };
+		7FC202A51921829B00DCD9E2 /* SaiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC202A41921829B00DCD9E2 /* SaiAppDelegate.m */; };
+		7FC202A81921829B00DCD9E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FC202A61921829B00DCD9E2 /* Main.storyboard */; };
+		7FC202AB1921829B00DCD9E2 /* SaiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC202AA1921829B00DCD9E2 /* SaiViewController.m */; };
+		7FC202AD1921829B00DCD9E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FC202AC1921829B00DCD9E2 /* Images.xcassets */; };
+		7FC202B41921829B00DCD9E2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC202B31921829B00DCD9E2 /* XCTest.framework */; };
+		7FC202B51921829B00DCD9E2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC202941921829B00DCD9E2 /* Foundation.framework */; };
+		7FC202B61921829B00DCD9E2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC202981921829B00DCD9E2 /* UIKit.framework */; };
+		7FC202BE1921829B00DCD9E2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FC202BC1921829B00DCD9E2 /* InfoPlist.strings */; };
+		7FC202C01921829B00DCD9E2 /* my_first_gitupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FC202BF1921829B00DCD9E2 /* my_first_gitupTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FC202B71921829B00DCD9E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FC202891921829B00DCD9E2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FC202901921829B00DCD9E2;
+			remoteInfo = "my first gitup";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FC202911921829B00DCD9E2 /* my first gitup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my first gitup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC202941921829B00DCD9E2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7FC202961921829B00DCD9E2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7FC202981921829B00DCD9E2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7FC2029C1921829B00DCD9E2 /* my first gitup-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "my first gitup-Info.plist"; sourceTree = "<group>"; };
+		7FC2029E1921829B00DCD9E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FC202A01921829B00DCD9E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FC202A21921829B00DCD9E2 /* my first gitup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "my first gitup-Prefix.pch"; sourceTree = "<group>"; };
+		7FC202A31921829B00DCD9E2 /* SaiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaiAppDelegate.h; sourceTree = "<group>"; };
+		7FC202A41921829B00DCD9E2 /* SaiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaiAppDelegate.m; sourceTree = "<group>"; };
+		7FC202A71921829B00DCD9E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7FC202A91921829B00DCD9E2 /* SaiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaiViewController.h; sourceTree = "<group>"; };
+		7FC202AA1921829B00DCD9E2 /* SaiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaiViewController.m; sourceTree = "<group>"; };
+		7FC202AC1921829B00DCD9E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7FC202B21921829B00DCD9E2 /* my first gitupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "my first gitupTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FC202B31921829B00DCD9E2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		7FC202BB1921829B00DCD9E2 /* my first gitupTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "my first gitupTests-Info.plist"; sourceTree = "<group>"; };
+		7FC202BD1921829B00DCD9E2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FC202BF1921829B00DCD9E2 /* my_first_gitupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = my_first_gitupTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FC2028E1921829B00DCD9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC202971921829B00DCD9E2 /* CoreGraphics.framework in Frameworks */,
+				7FC202991921829B00DCD9E2 /* UIKit.framework in Frameworks */,
+				7FC202951921829B00DCD9E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC202AF1921829B00DCD9E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC202B41921829B00DCD9E2 /* XCTest.framework in Frameworks */,
+				7FC202B61921829B00DCD9E2 /* UIKit.framework in Frameworks */,
+				7FC202B51921829B00DCD9E2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FC202881921829B00DCD9E2 = {
+			isa = PBXGroup;
+			children = (
+				7FC2029A1921829B00DCD9E2 /* my first gitup */,
+				7FC202B91921829B00DCD9E2 /* my first gitupTests */,
+				7FC202931921829B00DCD9E2 /* Frameworks */,
+				7FC202921921829B00DCD9E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FC202921921829B00DCD9E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FC202911921829B00DCD9E2 /* my first gitup.app */,
+				7FC202B21921829B00DCD9E2 /* my first gitupTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FC202931921829B00DCD9E2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FC202941921829B00DCD9E2 /* Foundation.framework */,
+				7FC202961921829B00DCD9E2 /* CoreGraphics.framework */,
+				7FC202981921829B00DCD9E2 /* UIKit.framework */,
+				7FC202B31921829B00DCD9E2 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FC2029A1921829B00DCD9E2 /* my first gitup */ = {
+			isa = PBXGroup;
+			children = (
+				7FC202A31921829B00DCD9E2 /* SaiAppDelegate.h */,
+				7FC202A41921829B00DCD9E2 /* SaiAppDelegate.m */,
+				7FC202A61921829B00DCD9E2 /* Main.storyboard */,
+				7FC202A91921829B00DCD9E2 /* SaiViewController.h */,
+				7FC202AA1921829B00DCD9E2 /* SaiViewController.m */,
+				7FC202AC1921829B00DCD9E2 /* Images.xcassets */,
+				7FC2029B1921829B00DCD9E2 /* Supporting Files */,
+			);
+			path = "my first gitup";
+			sourceTree = "<group>";
+		};
+		7FC2029B1921829B00DCD9E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FC2029C1921829B00DCD9E2 /* my first gitup-Info.plist */,
+				7FC2029D1921829B00DCD9E2 /* InfoPlist.strings */,
+				7FC202A01921829B00DCD9E2 /* main.m */,
+				7FC202A21921829B00DCD9E2 /* my first gitup-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FC202B91921829B00DCD9E2 /* my first gitupTests */ = {
+			isa = PBXGroup;
+			children = (
+				7FC202BF1921829B00DCD9E2 /* my_first_gitupTests.m */,
+				7FC202BA1921829B00DCD9E2 /* Supporting Files */,
+			);
+			path = "my first gitupTests";
+			sourceTree = "<group>";
+		};
+		7FC202BA1921829B00DCD9E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FC202BB1921829B00DCD9E2 /* my first gitupTests-Info.plist */,
+				7FC202BC1921829B00DCD9E2 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FC202901921829B00DCD9E2 /* my first gitup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FC202C31921829B00DCD9E2 /* Build configuration list for PBXNativeTarget "my first gitup" */;
+			buildPhases = (
+				7FC2028D1921829B00DCD9E2 /* Sources */,
+				7FC2028E1921829B00DCD9E2 /* Frameworks */,
+				7FC2028F1921829B00DCD9E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "my first gitup";
+			productName = "my first gitup";
+			productReference = 7FC202911921829B00DCD9E2 /* my first gitup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7FC202B11921829B00DCD9E2 /* my first gitupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FC202C61921829B00DCD9E2 /* Build configuration list for PBXNativeTarget "my first gitupTests" */;
+			buildPhases = (
+				7FC202AE1921829B00DCD9E2 /* Sources */,
+				7FC202AF1921829B00DCD9E2 /* Frameworks */,
+				7FC202B01921829B00DCD9E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FC202B81921829B00DCD9E2 /* PBXTargetDependency */,
+			);
+			name = "my first gitupTests";
+			productName = "my first gitupTests";
+			productReference = 7FC202B21921829B00DCD9E2 /* my first gitupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FC202891921829B00DCD9E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Sai;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Chen Youxue";
+				TargetAttributes = {
+					7FC202B11921829B00DCD9E2 = {
+						TestTargetID = 7FC202901921829B00DCD9E2;
+					};
+				};
+			};
+			buildConfigurationList = 7FC2028C1921829B00DCD9E2 /* Build configuration list for PBXProject "my first gitup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7FC202881921829B00DCD9E2;
+			productRefGroup = 7FC202921921829B00DCD9E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FC202901921829B00DCD9E2 /* my first gitup */,
+				7FC202B11921829B00DCD9E2 /* my first gitupTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FC2028F1921829B00DCD9E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC202AD1921829B00DCD9E2 /* Images.xcassets in Resources */,
+				7FC2029F1921829B00DCD9E2 /* InfoPlist.strings in Resources */,
+				7FC202A81921829B00DCD9E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC202B01921829B00DCD9E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC202BE1921829B00DCD9E2 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FC2028D1921829B00DCD9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC202AB1921829B00DCD9E2 /* SaiViewController.m in Sources */,
+				7FC202A51921829B00DCD9E2 /* SaiAppDelegate.m in Sources */,
+				7FC202A11921829B00DCD9E2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FC202AE1921829B00DCD9E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC202C01921829B00DCD9E2 /* my_first_gitupTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7FC202B81921829B00DCD9E2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FC202901921829B00DCD9E2 /* my first gitup */;
+			targetProxy = 7FC202B71921829B00DCD9E2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7FC2029D1921829B00DCD9E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FC2029E1921829B00DCD9E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7FC202A61921829B00DCD9E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FC202A71921829B00DCD9E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7FC202BC1921829B00DCD9E2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FC202BD1921829B00DCD9E2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FC202C11921829B00DCD9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7FC202C21921829B00DCD9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FC202C41921829B00DCD9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "my first gitup/my first gitup-Prefix.pch";
+				INFOPLIST_FILE = "my first gitup/my first gitup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7FC202C51921829B00DCD9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "my first gitup/my first gitup-Prefix.pch";
+				INFOPLIST_FILE = "my first gitup/my first gitup-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7FC202C71921829B00DCD9E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/my first gitup.app/my first gitup";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "my first gitup/my first gitup-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "my first gitupTests/my first gitupTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		7FC202C81921829B00DCD9E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/my first gitup.app/my first gitup";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "my first gitup/my first gitup-Prefix.pch";
+				INFOPLIST_FILE = "my first gitupTests/my first gitupTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FC2028C1921829B00DCD9E2 /* Build configuration list for PBXProject "my first gitup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC202C11921829B00DCD9E2 /* Debug */,
+				7FC202C21921829B00DCD9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FC202C31921829B00DCD9E2 /* Build configuration list for PBXNativeTarget "my first gitup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC202C41921829B00DCD9E2 /* Debug */,
+				7FC202C51921829B00DCD9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7FC202C61921829B00DCD9E2 /* Build configuration list for PBXNativeTarget "my first gitupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FC202C71921829B00DCD9E2 /* Debug */,
+				7FC202C81921829B00DCD9E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FC202891921829B00DCD9E2 /* Project object */;
+}
